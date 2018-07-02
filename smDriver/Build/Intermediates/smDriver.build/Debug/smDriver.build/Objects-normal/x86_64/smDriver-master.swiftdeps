@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "6e4a34b94a9f066f5d96d5ecf6fda863"
-build_time: [1530508941, 959534000]
-inputs:
-  "/Users/TK/projects/smDriver/smDriver/smDriver/main.swift": [1530508939, 0]

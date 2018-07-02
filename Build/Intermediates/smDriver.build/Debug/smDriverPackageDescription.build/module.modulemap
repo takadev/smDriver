@@ -1,0 +1,4 @@
+framework module smDriverPackageDescription {
+    header "smDriverPackageDescription-Swift.h"
+    requires objc
+}

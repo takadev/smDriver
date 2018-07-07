@@ -1,9 +1,9 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "6b946690274390b7d81c535b0e7b25b3"
-build_time: [1530522615, 989547000]
+build_time: [1530966724, 575303000]
 inputs:
   "/Users/TK/projects/smDriver/Sources/smDriver/main.swift": [1530515675, 0]
-  "/Users/TK/projects/smDriver/Sources/smDriver/httpRequest.swift": [1530522613, 0]
+  "/Users/TK/projects/smDriver/Sources/smDriver/httpRequest.swift": [1530523116, 0]
   "/Users/TK/projects/smDriver/Sources/smDriver/file.swift": [1530520502, 0]
-  "/Users/TK/projects/smDriver/Sources/smDriver/downloader.swift": [1530522280, 0]
-  "/Users/TK/projects/smDriver/Sources/smDriver/ame.swift": [1530521794, 0]
+  "/Users/TK/projects/smDriver/Sources/smDriver/downloader.swift": [1530522798, 0]
+  "/Users/TK/projects/smDriver/Sources/smDriver/ame.swift": [1530523002, 0]

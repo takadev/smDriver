@@ -37,6 +37,7 @@ depends-member:
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "copyItem"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
 - !private ["s28CustomDebugStringConvertibleP", "fileExists"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -44,6 +45,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "debugDescription"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "copyItem"]
@@ -52,6 +54,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "statusCode"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "debugDescription"]
 - !private ["s9DecodableP", "init"]
 - ["8smDriver10DonwloaderC", "Data"]
 - ["8smDriver10DonwloaderC", "Error"]
@@ -70,15 +73,18 @@ depends-member:
 - ["8smDriver10DonwloaderC", "init"]
 - !private ["8smDriver10DonwloaderC", "print"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "debugDescription"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "copyItem"]
+- !private ["s9EquatableP", "debugDescription"]
 - !private ["s9EquatableP", "default"]
 - !private ["s9EquatableP", "fileExists"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "statusCode"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "debugDescription"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["So11FileManagerC", "copyItem"]
@@ -108,6 +114,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "fileExists"]
 - !private ["So16NSObjectProtocolP", "statusCode"]
 - !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["Sq", "debugDescription"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["s8SequenceP", "init"]
@@ -129,6 +136,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "debugDescription"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
@@ -147,6 +155,7 @@ depends-nominal:
 - !private "s9EquatableP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "So11FileManagerC"
@@ -160,6 +169,7 @@ depends-nominal:
 - !private "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
+- !private "Sq"
 - !private "s26RangeReplaceableCollectionP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s8SequenceP"

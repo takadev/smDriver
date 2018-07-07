@@ -8,7 +8,7 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Data"
-- !private "DispatchSemaphore"
+- "DispatchSemaphore"
 - "Error"
 - "HttpRequest"
 - "URL"
@@ -18,47 +18,47 @@ depends-top-level:
 depends-member:
 - !private ["s7CVarArgP", "dataTask"]
 - !private ["s7CVarArgP", "downloadTask"]
-- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "resume"]
 - ["s7CVarArgP", "shared"]
 - !private ["s7CVarArgP", "signal"]
 - !private ["s7CVarArgP", "wait"]
 - !private ["s28CustomDebugStringConvertibleP", "dataTask"]
 - !private ["s28CustomDebugStringConvertibleP", "downloadTask"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "resume"]
 - ["s28CustomDebugStringConvertibleP", "shared"]
 - !private ["s28CustomDebugStringConvertibleP", "signal"]
 - !private ["s28CustomDebugStringConvertibleP", "wait"]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
 - !private ["s23CustomStringConvertibleP", "downloadTask"]
-- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "resume"]
 - ["s23CustomStringConvertibleP", "shared"]
 - !private ["s23CustomStringConvertibleP", "signal"]
 - !private ["s23CustomStringConvertibleP", "wait"]
-- !private ["So14DispatchObjectC", "init"]
+- ["So14DispatchObjectC", "init"]
 - !private ["So14DispatchObjectC", "signal"]
 - !private ["So14DispatchObjectC", "wait"]
-- !private ["So17DispatchSemaphoreC", "init"]
+- ["So17DispatchSemaphoreC", "init"]
 - !private ["So17DispatchSemaphoreC", "signal"]
 - !private ["So17DispatchSemaphoreC", "wait"]
 - !private ["s9EquatableP", "dataTask"]
 - !private ["s9EquatableP", "downloadTask"]
-- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "resume"]
 - ["s9EquatableP", "shared"]
 - !private ["s9EquatableP", "signal"]
 - !private ["s9EquatableP", "wait"]
 - !private ["s8HashableP", "dataTask"]
 - !private ["s8HashableP", "downloadTask"]
-- !private ["s8HashableP", "init"]
+- ["s8HashableP", "init"]
 - !private ["s8HashableP", "resume"]
 - ["s8HashableP", "shared"]
 - !private ["s8HashableP", "signal"]
 - !private ["s8HashableP", "wait"]
 - ["8smDriver11HttpRequestC", "Data"]
-- !private ["8smDriver11HttpRequestC", "DispatchSemaphore"]
+- ["8smDriver11HttpRequestC", "DispatchSemaphore"]
 - ["8smDriver11HttpRequestC", "Error"]
 - ["8smDriver11HttpRequestC", "URL"]
 - ["8smDriver11HttpRequestC", "URLResponse"]
@@ -68,23 +68,24 @@ depends-member:
 - ["8smDriver11HttpRequestC", "download"]
 - ["8smDriver11HttpRequestC", "get"]
 - ["8smDriver11HttpRequestC", "init"]
+- ["8smDriver11HttpRequestC", "sem"]
 - ["8smDriver11HttpRequestC", "session"]
 - !private ["So9NSCopyingP", "resume"]
 - !private ["So8NSObjectC", "dataTask"]
 - !private ["So8NSObjectC", "downloadTask"]
-- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "resume"]
 - ["So8NSObjectC", "shared"]
 - !private ["So8NSObjectC", "signal"]
 - !private ["So8NSObjectC", "wait"]
 - !private ["So16NSObjectProtocolP", "dataTask"]
 - !private ["So16NSObjectProtocolP", "downloadTask"]
-- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "resume"]
 - ["So16NSObjectProtocolP", "shared"]
 - !private ["So16NSObjectProtocolP", "signal"]
 - !private ["So16NSObjectProtocolP", "wait"]
-- !private ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "init"]
 - !private ["So9OS_objectC", "signal"]
 - !private ["So9OS_objectC", "wait"]
 - !private ["So17ProgressReportingP", "resume"]
@@ -96,7 +97,7 @@ depends-member:
 - !private ["So14URLSessionTaskC", "resume"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadTask"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
@@ -105,15 +106,15 @@ depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- !private "So14DispatchObjectC"
-- !private "So17DispatchSemaphoreC"
+- "So14DispatchObjectC"
+- "So17DispatchSemaphoreC"
 - "s9EquatableP"
 - "s8HashableP"
 - "8smDriver11HttpRequestC"
 - !private "So9NSCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- !private "So9OS_objectC"
+- "So9OS_objectC"
 - !private "So17ProgressReportingP"
 - "So10URLSessionC"
 - !private "So18URLSessionDataTaskC"
@@ -137,4 +138,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "14d95c282f7b905f1808c0496602b011"
+interface-hash: "c14b265a07ba8bebd42aa7ba2e647862"

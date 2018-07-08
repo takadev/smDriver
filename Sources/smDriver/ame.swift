@@ -6,8 +6,12 @@
 //
 
 import Foundation
+import GD
 
 class Ame {
+    
+    private let WIDTH : Int32 = 770
+    private let HEIGHT : Int32 = 480
     
     enum Const: String {
         case AmeDir = "~/.ame"
@@ -46,5 +50,23 @@ class Ame {
         let imageUrl = Const.AmeshURL.rawValue + "/mesh/000/" + partString + ".gif"
         let ameFilePath = ameDir + "/" + Const.AmeImg.rawValue
         loader.downLoad(url: imageUrl, destPath: ameFilePath)
+        
+        let mapFile = fopen(mapFilePath, "rb")
+        defer { fclose(mapFile) }
+        let mskFile = fopen(mskFilePath, "rb")
+        defer { fclose(mskFile) }
+        let ameFile = fopen(ameFilePath, "rb")
+        defer { fclose(mskFile) }
+        let tmpFile = fopen(ameDir + "/tmp.jpg", "wb")
+        defer { fclose(tmpFile) }
+        
+        let dispImage = gdImageCreate(WIDTH, HEIGHT);
+        let mapImage = gdImageCreateFromJpeg(mapFile)
+        gdImageCopy(dispImage, mapImage, 0, 0, 0, 0, WIDTH, HEIGHT)
+        let maskImage = gdImageCreateFromPng(mskFile)
+        gdImageCopy(dispImage, maskImage, 0, 0, 0, 0, WIDTH, HEIGHT)
+        let ameImage = gdImageCreateFromGif(ameFile)
+        gdImageCopy(dispImage, ameImage, 0, 0, 0, 0, WIDTH, HEIGHT)
+        gdImagePng(dispImage, tmpFile)
     }
 }

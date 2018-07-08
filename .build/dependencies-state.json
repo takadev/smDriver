@@ -1,0 +1,1 @@
+{"object": {"dependencies": [{"basedOn": null, "packageRef": {"identity": "gd", "isLocal": false, "name": "GD", "path": "/Users/TK/projects/smDriver/GD"}, "state": {"checkoutState": {"branch": null, "revision": "3a7c174424ebca62496b108c178a286b5beb5c2b", "version": "0.0.3"}, "name": "checkout"}, "subpath": "GD--5030097390346150950"}]}, "version": 2}

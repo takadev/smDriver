@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GD",
+        "repositoryURL": "/Users/TK/projects/smDriver/GD",
+        "state": {
+          "branch": null,
+          "revision": "3a7c174424ebca62496b108c178a286b5beb5c2b",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

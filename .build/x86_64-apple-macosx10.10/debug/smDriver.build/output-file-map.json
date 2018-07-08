@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/master.swiftdeps"
+  },
+  "/Users/TK/projects/smDriver/MyProject/Sources/smDriver/ame.swift": {
+    "dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/ame.d",
+    "object": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/ame.swift.o",
+    "swiftmodule": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/ame~partial.swiftmodule",
+    "swift-dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/ame.swiftdeps"
+  },
+  "/Users/TK/projects/smDriver/MyProject/Sources/smDriver/downloader.swift": {
+    "dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/downloader.d",
+    "object": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/downloader.swift.o",
+    "swiftmodule": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/downloader~partial.swiftmodule",
+    "swift-dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/downloader.swiftdeps"
+  },
+  "/Users/TK/projects/smDriver/MyProject/Sources/smDriver/file.swift": {
+    "dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/file.d",
+    "object": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/file.swift.o",
+    "swiftmodule": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/file~partial.swiftmodule",
+    "swift-dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/file.swiftdeps"
+  },
+  "/Users/TK/projects/smDriver/MyProject/Sources/smDriver/httpRequest.swift": {
+    "dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/httpRequest.d",
+    "object": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/httpRequest.swift.o",
+    "swiftmodule": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/httpRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/httpRequest.swiftdeps"
+  },
+  "/Users/TK/projects/smDriver/MyProject/Sources/smDriver/main.swift": {
+    "dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/main.d",
+    "object": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/main.swift.o",
+    "swiftmodule": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/TK/projects/smDriver/MyProject/.build/x86_64-apple-macosx10.10/debug/smDriver.build/main.swiftdeps"
+  }
+}
